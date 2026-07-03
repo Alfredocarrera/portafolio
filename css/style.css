@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(2, 2, 92, 0.87);
+    color:beige
+}
+
+/* Barra de menu-navegación */
+nav{   
+    background: #28336d;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    position:relative;
+    top: 0;
+    z-index: 100;
+}
+
+.hero-img img{
+    width: 20%;
+    border-radius: 20px;
+    display:grid;
+    grid-template-columns: repeat 1fr;
+
+}
+
+.hero {
+    padding: 40px;
+}
+
+h2 {
+    text-align:left;
+    margin-bottom: 20px;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: rgb(173, 185, 204);
+}
