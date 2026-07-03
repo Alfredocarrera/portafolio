@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-
-
-=======
->>>>>>> develop
 /* 
    1. VARIABLES DE COLOR Y CONFIGURACIÓN GENERAL
-    */
+*/
 :root {
     --azul-oscuro: #0f2027;    /* Azul profundo para fondos y textos principales */
     --azul-medio: #203a43;     /* Azul secundario */
@@ -17,10 +12,7 @@
     --fuente-principal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-<<<<<<< HEAD
- /* se recetea los margenes y paddings de todos los elementos para evitar inconsistencias entre navegadores */  
-=======
->>>>>>> develop
+/* Se resetean los márgenes y paddings de todos los elementos para evitar inconsistencias entre navegadores */  
 * {
     margin: 0;
     padding: 0;
@@ -28,56 +20,6 @@
 }
 
 body {
-<<<<<<< HEAD
-    background-color: rgba(48, 48, 114, 0.87);
-    color:beige
-}
-
-/* Barra de menu-navegación */
-nav{   
-    background: #28336d;
-    color: white;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    padding: 20px;
-    position:relative;
-    top: 0;
-    z-index: 100;
-}
-
-.hero-img img{
-    width: 20%;
-    border-radius: 20px;
-    display:grid;
-    grid-template-columns: repeat 1fr;
-
-}
-
-.hero {
-    padding: 40px;
-}
-
-h2 {
-    text-align:left;
-    margin-bottom: 20px;
-}
-
-.menu{
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
-}
-
-.menu a {
-    color: white;
-    text-decoration: none;
-}
-
-.menu a:hover{
-    color: rgb(173, 185, 204);
-}
-=======
     font-family: var(--fuente-principal);
     background-color: var(--beige-claro);
     color: var(--texto-oscuro);
@@ -97,7 +39,7 @@ a:hover {
 
 /* 
    2. MAQUETACIÓN DEL HEADER (FLEX)
-    */
+*/
 header {
     background: linear-gradient(135deg, var(--azul-oscuro), var(--azul-acento));
     color: #ffffff;
@@ -134,7 +76,7 @@ header {
     border-bottom: 2px solid var(--beige-oscuro);
 }
 
-/* Ocultamos o ajustamos la sección de la portada del header si no la usas como logo chico */
+/* Ajuste de la sección de la portada del header si se usa como logo pequeño */
 #hero-img img {
     max-height: 50px;
     border-radius: 50%;
@@ -143,7 +85,7 @@ header {
 
 /* 
    3. ANIMACIÓN Y PRESENTACIÓN (HERO SECTION)
-    */
+*/
 #Presentación {
     background-color: var(--azul-oscuro);
     color: #ffffff;
@@ -153,7 +95,7 @@ header {
     border-bottom-right-radius: 50px;
 }
 
-/* Tu imagen con una animación de entrada suave */
+/* Imagen con una animación de entrada suave */
 #imagen_mia img {
     width: 160px;
     height: 160px;
@@ -198,7 +140,7 @@ header {
 
 /* 
    4. ESTRUCTURA DEL CONTENIDO PRINCIPAL
-    */
+*/
 main {
     max-width: 1200px;
     margin: 0 auto;
@@ -236,7 +178,7 @@ article:hover {
 
 /* 
    5. DISEÑO DE GRILLA (GRID - PROYECTOS)
-    */
+*/
 #conocimientos, #proyectos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -277,7 +219,7 @@ article:hover {
 
 /* 
    6. FOOTER
-    */
+*/
 footer {
     background-color: var(--azul-oscuro);
     color: var(--beige-claro);
@@ -289,7 +231,7 @@ footer {
 
 /*
    7. RESPONSIVE (MEDIA QUERIES)
-    */
+*/
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -311,4 +253,3 @@ footer {
         font-size: 1rem;
     }
 }
->>>>>>> develop
