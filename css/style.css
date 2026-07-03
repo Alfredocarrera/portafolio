@@ -78,8 +78,8 @@ header {
 
 /* creo o ajusto la sección de la portada del header si usas como logo   */
 #hero-img img {
-    max-height: 50px;
-    border-radius: 50%;
+    max-height: 150px;
+    border-radius: 15%;
     object-fit: cover;
 }
 
